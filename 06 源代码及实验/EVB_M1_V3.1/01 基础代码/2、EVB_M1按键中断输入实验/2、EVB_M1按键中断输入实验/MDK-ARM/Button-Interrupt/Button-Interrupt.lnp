@@ -1,0 +1,27 @@
+--cpu Cortex-M4.fp --branchpatch=sdcomp-29491-629360
+"button-interrupt\startup_stm32l431xx.o"
+"button-interrupt\stm32l4xx_it.o"
+"button-interrupt\gpio.o"
+"button-interrupt\stm32l4xx_hal_msp.o"
+"button-interrupt\main.o"
+"button-interrupt\stm32l4xx_hal_flash.o"
+"button-interrupt\stm32l4xx_hal_pwr_ex.o"
+"button-interrupt\stm32l4xx_hal_rcc.o"
+"button-interrupt\stm32l4xx_hal_dma_ex.o"
+"button-interrupt\stm32l4xx_hal_i2c.o"
+"button-interrupt\stm32l4xx_hal_dma.o"
+"button-interrupt\stm32l4xx_hal_i2c_ex.o"
+"button-interrupt\stm32l4xx_hal_flash_ex.o"
+"button-interrupt\stm32l4xx_hal_tim.o"
+"button-interrupt\stm32l4xx_hal_gpio.o"
+"button-interrupt\stm32l4xx_hal.o"
+"button-interrupt\stm32l4xx_hal_tim_ex.o"
+"button-interrupt\stm32l4xx_hal_rcc_ex.o"
+"button-interrupt\stm32l4xx_hal_pwr.o"
+"button-interrupt\stm32l4xx_hal_flash_ramfunc.o"
+"button-interrupt\stm32l4xx_hal_cortex.o"
+"button-interrupt\system_stm32l4xx.o"
+--library_type=microlib --strict --scatter "Button-Interrupt\Button-Interrupt.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Button-Interrupt.map" -o Button-Interrupt\Button-Interrupt.axf

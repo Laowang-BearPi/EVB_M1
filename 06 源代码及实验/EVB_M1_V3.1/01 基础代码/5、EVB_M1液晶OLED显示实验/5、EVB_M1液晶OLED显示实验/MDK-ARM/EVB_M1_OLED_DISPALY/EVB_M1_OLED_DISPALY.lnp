@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp --branchpatch=sdcomp-29491-629360
+"evb_m1_oled_dispaly\startup_stm32l431xx.o"
+"evb_m1_oled_dispaly\oled.o"
+"evb_m1_oled_dispaly\system_stm32l4xx.o"
+"evb_m1_oled_dispaly\stm32l4xx_hal_dma.o"
+"evb_m1_oled_dispaly\stm32l4xx_hal_gpio.o"
+"evb_m1_oled_dispaly\stm32l4xx_hal.o"
+"evb_m1_oled_dispaly\stm32l4xx_hal_rcc_ex.o"
+"evb_m1_oled_dispaly\stm32l4xx_hal_cortex.o"
+"evb_m1_oled_dispaly\stm32l4xx_hal_i2c.o"
+"evb_m1_oled_dispaly\stm32l4xx_hal_i2c_ex.o"
+"evb_m1_oled_dispaly\stm32l4xx_hal_tim_ex.o"
+"evb_m1_oled_dispaly\stm32l4xx_hal_tim.o"
+"evb_m1_oled_dispaly\stm32l4xx_hal_flash_ex.o"
+"evb_m1_oled_dispaly\stm32l4xx_hal_flash.o"
+"evb_m1_oled_dispaly\stm32l4xx_hal_dma_ex.o"
+"evb_m1_oled_dispaly\stm32l4xx_hal_pwr_ex.o"
+"evb_m1_oled_dispaly\stm32l4xx_hal_flash_ramfunc.o"
+"evb_m1_oled_dispaly\stm32l4xx_hal_rcc.o"
+"evb_m1_oled_dispaly\stm32l4xx_hal_pwr.o"
+"evb_m1_oled_dispaly\main.o"
+"evb_m1_oled_dispaly\stm32l4xx_it.o"
+"evb_m1_oled_dispaly\stm32l4xx_hal_msp.o"
+"evb_m1_oled_dispaly\gpio.o"
+--library_type=microlib --strict --scatter "EVB_M1_OLED_DISPALY\EVB_M1_OLED_DISPALY.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "EVB_M1_OLED_DISPALY.map" -o EVB_M1_OLED_DISPALY\EVB_M1_OLED_DISPALY.axf

@@ -1,0 +1,27 @@
+--cpu Cortex-M4.fp --branchpatch=sdcomp-29491-629360
+"led-blink\startup_stm32l431xx.o"
+"led-blink\stm32l4xx_hal_gpio.o"
+"led-blink\stm32l4xx_hal_rcc_ex.o"
+"led-blink\stm32l4xx_hal_rcc.o"
+"led-blink\stm32l4xx_hal_cortex.o"
+"led-blink\stm32l4xx_hal_pwr_ex.o"
+"led-blink\stm32l4xx_hal_i2c_ex.o"
+"led-blink\stm32l4xx_hal_flash.o"
+"led-blink\stm32l4xx_hal_i2c.o"
+"led-blink\stm32l4xx_hal_dma_ex.o"
+"led-blink\stm32l4xx_hal_tim.o"
+"led-blink\stm32l4xx_hal_flash_ramfunc.o"
+"led-blink\stm32l4xx_hal_pwr.o"
+"led-blink\stm32l4xx_hal_tim_ex.o"
+"led-blink\stm32l4xx_hal.o"
+"led-blink\stm32l4xx_hal_dma.o"
+"led-blink\stm32l4xx_hal_flash_ex.o"
+"led-blink\system_stm32l4xx.o"
+"led-blink\stm32l4xx_hal_msp.o"
+"led-blink\stm32l4xx_it.o"
+"led-blink\gpio.o"
+"led-blink\main.o"
+--library_type=microlib --strict --scatter "LED-Blink\LED-Blink.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "LED-Blink.map" -o LED-Blink\LED-Blink.axf
