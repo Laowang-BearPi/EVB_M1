@@ -1,0 +1,191 @@
+卷 DATA 的文件夹 PATH 列表
+卷序列号为 F496-677E
+E:.
+│  tree.txt
+│  
+├─01 Software
+│  │  bc95中文指令集 V2.0.pdf
+│  │  Quectel BC95 B657HB-SP3固件包.zip
+│  │  Quectel_BC95_AT_Commands_Manual_V1.9.pdf
+│  │  Quectel_BC95_DFOTA_用户指导_V1.0.pdf
+│  │  Quectel_BC95_Firmware_Upgrade_via_Code_Loader_User_Guide_V1.2.pdf
+│  │  Quectel_BC95_Firmware_Upgrade_via_UEUpdater_User_Guide_V1.1.pdf
+│  │  Quectel_BC95_UE_Log_Viewer_User_Guide_V1.0.pdf
+│  │  Quectel_BC95_参考设计手册_Rev.B_20170925.pdf
+│  │  Quectel_BC95_应用设计指导_V1.0.pdf
+│  │  Quectel_BC95_重要注意事项及常见问题_V1.5.pdf
+│  │  
+│  ├─固件
+│  │      BC95B5HBR01A03W16.rar
+│  │      BC95B5HBR01A04W16.rar
+│  │      BC95B5HBR01A05W16.zip
+│  │      BC95B8HBR01A03W16_ONT.zip
+│  │      BC95B8HBR01A04W16.rar
+│  │      BC95B8HBR01A05W16.zip
+│  │      
+│  └─工具
+│          Keil 5.zip
+│          Keil.STM32L4xx_DFP.2.0.0.pack
+│          KEIL5安装教程.doc
+│          QCOM_V1.6.zip
+│          stm32cubemx.zip
+│          STM32CubeMX介绍与安装教程.docx
+│          UELogViewerInstaller.rar
+│          UEUpdaterUI-3.11.0.5-固件烧录.rar
+│          
+├─02 Hardware
+│      EVB_M1.PcbLib
+│      EVB_M1.SCHLIB
+│      EVB_M1_v2.0.pdf
+│      EVB_M1_v3.0.pdf
+│      EVB_M1硬件使用手册.pdf
+│      Quectel_BC95_PCB_Footprint&Part_20170615.rar
+│      Quectel_BC95_参考设计手册_Rev.A_20170421.pdf
+│      Quectel_BC95_硬件设计手册_V1.3.pdf
+│      Quectel_天线设计指导_V1.9.pdf
+│      
+├─03 SPEC
+│      EVB_M1串口调试NB-IoT入门篇.pdf
+│      EVB_M1华为平台接入手册.pdf
+│      
+├─04 TE-B
+│      EVB_M1 产品规格书.pdf
+│      Quectel_BC95_NB-IoT_模块产品规格书_V1.3.pdf
+│      
+├─05 Driver
+│      STLINK V2（CN）驱动及说明20171030.rar
+│      串口驱动-CH340_Windows.rar
+│      
+├─06 源代码及实验
+│  ├─01 基础代码
+│  │      1、EVB_M1点亮LED灯闪烁实验.rar
+│  │      2、EVB_M1按键中断输入实验.rar
+│  │      3、EVB_M1串口打印实验.rar
+│  │      4、EVB_M1串口数据收发实现.rar
+│  │      5、EVB_M1液晶OLED显示实验.rar
+│  │      
+│  └─02 综合实验
+│      ├─实验一 EVB_M1基于UDP协议数据收发测试
+│      │  
+│      │              
+│      ├─实验三 EVB_M1_烟雾报警器
+│      │  │  APP使用说明.txt
+│      │  │  EVB-M1_Huawei_LiteOS_C50.rar
+│      │  │  SMOKE_project.zip
+│      │  │  平台的Profile和编解码插件说明.txt
+│      │  │  烟感.apk
+│      │  │  
+│      │  ├─平台的Profile和编解码插件
+│      │  │      Smoke_CIGPlug-in.zip
+│      │  │      Smoke_IOTCLUB_Smoke.zip
+│      │  │      
+│      │  └─平台的Profile和编解码插件截图
+│      │          profile.png
+│      │          编解码插件1.png
+│      │          编解码插件2.png
+│      │          编解码插件3.png
+│      │          编解码插件4.png
+│      │          编解码插件5.png
+│      │          编解码插件6.png
+│      │          
+│      ├─实验二 EVB_M1_温湿度监测
+│      │  │  APP使用说明.txt
+│      │  │  EVB-M1_Huawei_LiteOS_C50.rar
+│      │  │  Temperarure_humidity.zip
+│      │  │  平台的Profile和编解码插件说明.txt
+│      │  │  温湿度.apk
+│      │  │  
+│      │  ├─平台的Profile和编解码插件
+│      │  │      MultiSensor_CIGPlug-in.zip
+│      │  │      MultiSensor_IOTCLUB_Humiture.zip
+│      │  │      
+│      │  └─平台的Profile和编解码插件截图
+│      │          profile.png
+│      │          编解码插件1.png
+│      │          编解码插件2.png
+│      │          编解码插件3.png
+│      │          编解码插件4.png
+│      │          
+│      ├─实验五 EVB_M1_光照强度监测
+│      │  │  APP使用说明.txt
+│      │  │  EVB-M1_Huawei_LiteOS_C50.rar
+│      │  │  Lightintensityproject.zip
+│      │  │  光强监测.apk
+│      │  │  平台的Profile和编解码插件说明.txt
+│      │  │  
+│      │  ├─平台的Profile和编解码插件
+│      │  │      MultiSensor_CIGPlug-in.zip
+│      │  │      MultiSensor_IOTCLUB_Light.zip
+│      │  │      
+│      │  └─平台的Profile和编解码插件截图
+│      │          profile.png
+│      │          编解码插件1.png
+│      │          编解码插件2.png
+│      │          编解码插件3.png
+│      │          
+│      └─实验四 EVB_M1_GPS定位
+│          │  APP使用说明.txt
+│          │  EVB-M1_Huawei_LiteOS_C50.rar
+│          │  平台的Profile和编解码插件说明.txt
+│          │  温湿度iot.apk
+│          │  
+│          ├─平台的Profile和编解码插件
+│          │      MultiSensor_CIGPlug-in.zip
+│          │      MultiSensor_IOTCLUB_GPS.zip
+│          │      
+│          └─平台的Profile和编解码插件截图
+│                  profile.png
+│                  编解码插件1.png
+│                  编解码插件2.png
+│                  编解码插件3.png
+│                  
+├─07 视频教程
+│  └─基础教程
+│          01 第一课 NB-IoT及BC95模组介绍.mp4
+│          02 第二课 BC95指令及通信过程讲解.mp4
+│          03 第三课 BC95网络通信实现过程（UDP）.mp4
+│          04 第四课 STM32基础知识介绍及KEIL软件安装.mp4
+│          
+├─08 电信平台资料及视频教程
+│  ├─视频教程
+│  │      第一讲-电信平台企业接入流程指导.zip
+│  │      第二讲-电信平台的使用演示.zip
+│  │      
+│  └─资料
+│          IoT平台北向应用证书使用指南.docx
+│          IoT平台应用对接指导手册.doc
+│          NADemo-new.zip
+│          NADemo说明.rar
+│          NB-IOT设备模拟器.zip
+│          中国电信NB-IoT业务资费方案（试行）的通知.pdf
+│          中国电信NB-IoT核心网定时器参数配置规范v0.63(1).docx
+│          中国电信NB-IoT连接频次计算说明-仅供参考.pdf
+│          中国电信物联网开放平台_NB-IoT业务对接指导书_v1.2.pdf
+│          中国电信物联网开放平台_NB-IoT模组对接指导书_v1.4.pdf
+│          中国电信物联网开放平台_北向API Java SDK说明文档_v1.0.doc
+│          中国电信物联网开放平台_软件升级指导书.docx
+│          中国电信物联网开放平台介绍v1.0.pptx
+│          中国电信物联网开放平台应用服务器证书（ca）-北向接口调用认证.zip
+│          回调地址CA证书制作说明.docx
+│          平台profile样例.rar
+│          平台应用服务器CA证书-北向接口调用认证.zip
+│          电信平台对接IP地址.txt
+│          编解码库开发与升级指南.doc
+│          编解码插件检测工具.zip
+│          
+├─09 华为平台资料
+│      EVB_M1华为平台接入手册.pdf
+│      华为IoT平台北向API参考.pdf
+│      华为IoT平台北向SDK API参考.pdf
+│      华为IoT平台北向应用开发指南.pdf
+│      华为NB-IoT设备模拟器.zip
+│      
+├─10 NB-IoT协议资料
+│      NarrowBand_NB_IoT.pdf
+│      NB-IOT原理及测试.pdf
+│      
+└─11 LiteOS资料
+        Huawei LiteOS Kernel开发指南.chm
+        Huawei_LiteOS在STM32系列处理器上的移植-Huawei_LiteOS_workshop.pdf
+        华为开源LiteOS：IoT终端完整软件栈（陈秋林）-20141118.pdf.pdf
+        
